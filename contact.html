@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Survival Ommen</title>
+  <meta name="description" content="Neem contact op met Survival Ommen of meld je aan voor updates over het initiatief.">
+  <meta name="theme-color" content="#1e5b3a">
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ga naar de inhoud</a>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Survival Ommen - home"><span class="brand-mark" aria-hidden="true">SO</span><span class="brand-text"><strong>Survival Ommen</strong><small>In voorbereiding</small></span></a>
+      <button class="menu-toggle" type="button" aria-label="Menu openen" aria-expanded="false" aria-controls="main-menu" data-menu-toggle><span></span><span></span><span></span></button>
+      <nav id="main-menu" class="main-nav" aria-label="Hoofdnavigatie" data-menu>
+        <a href="/">Home</a>
+        <a href="/over-survival-ommen.html">Over het initiatief</a>
+        <a class="active" href="/contact.html">Contact</a>
+        <a class="button button-small" href="#contactformulier">Ik heb interesse</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">Contact</p>
+        <h1>Neem contact met ons op</h1>
+        <p>Heb je vragen over het initiatief of wil je op de hoogte blijven van de ontwikkelingen? Neem gerust contact met ons op.</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <aside class="contact-details">
+          <div class="contact-card">
+            <span aria-hidden="true">✉️</span>
+            <div><h2>E-mail</h2><p><a href="mailto:info@survivalommen.nl">info@survivalommen.nl</a></p></div>
+          </div>
+          <div class="contact-card">
+            <span aria-hidden="true">📍</span>
+            <div><h2>Beoogde trainingslocatie</h2><p>Sportpark Westbroek<br>Ommen</p></div>
+          </div>
+          <div class="notice">
+            <strong>In voorbereiding</strong>
+            <p>De locatie en oprichting zijn nog onder voorbehoud van vergunningverlening.</p>
+          </div>
+        </aside>
+
+        <form id="contactformulier" class="contact-form" data-contact-form>
+          <h2>Stuur een bericht</h2>
+          <p class="form-intro">Na het versturen wordt je e-mailprogramma geopend met het bericht aan ons adres.</p>
+
+          <label for="naam">Naam</label>
+          <input id="naam" name="naam" type="text" autocomplete="name" required>
+
+          <label for="email">E-mailadres</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="onderwerp">Onderwerp</label>
+          <select id="onderwerp" name="onderwerp" required>
+            <option value="">Kies een onderwerp</option>
+            <option>Ik heb interesse</option>
+            <option>Ik wil op de hoogte blijven</option>
+            <option>Ik wil sponsor worden</option>
+            <option>Andere vraag</option>
+          </select>
+
+          <label for="bericht">Bericht</label>
+          <textarea id="bericht" name="bericht" rows="7" required></textarea>
+
+          <button class="button" type="submit">Versturen</button>
+          <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="brand brand-footer" href="/"><span class="brand-mark" aria-hidden="true">SO</span><span class="brand-text"><strong>Survival Ommen</strong><small>In voorbereiding</small></span></a></div>
+      <div><h2>Contact</h2><p><a href="mailto:info@survivalommen.nl">info@survivalommen.nl</a></p><p>Beoogde trainingslocatie:<br>Sportpark Westbroek, Ommen</p></div>
+      <div><h2>Navigatie</h2><p><a href="/">Home</a><br><a href="/over-survival-ommen.html">Over het initiatief</a><br><a href="/contact.html">Contact</a></p></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-year></span> Survival Ommen</p><p>De plannen zijn onder voorbehoud van vergunningverlening.</p></div>
+  </footer>
+</body>
+</html>
