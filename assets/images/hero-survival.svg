@@ -1,50 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#6c8f78"/>
-      <stop offset="1" stop-color="#284c36"/>
-    </linearGradient>
-    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#102e20"/>
-      <stop offset="1" stop-color="#224f35"/>
-    </linearGradient>
-  </defs>
-  <rect width="1600" height="900" fill="url(#sky)"/>
-  <circle cx="1320" cy="180" r="90" fill="#dfe8c7" opacity=".35"/>
-  <g opacity=".45" fill="#173a28">
-    <path d="M0 520 L160 350 L290 520 Z"/>
-    <path d="M180 520 L390 290 L620 520 Z"/>
-    <path d="M520 520 L760 325 L980 520 Z"/>
-    <path d="M900 520 L1120 300 L1360 520 Z"/>
-    <path d="M1200 520 L1440 345 L1600 520 Z"/>
-  </g>
-  <rect y="510" width="1600" height="390" fill="url(#ground)"/>
-  <g fill="#0b2518">
-    <path d="M1030 510 h28 l18 390 h-62z"/>
-    <path d="M1280 510 h30 l18 390 h-66z"/>
-    <path d="M1450 510 h20 l14 390 h-48z"/>
-  </g>
-  <g stroke="#d3b37a" stroke-width="18" fill="none" stroke-linecap="round">
-    <path d="M1050 560 C1120 640 1190 650 1292 560"/>
-    <path d="M1050 640 C1120 710 1200 720 1292 640"/>
-  </g>
-  <g stroke="#d3b37a" stroke-width="8">
-    <path d="M1090 590 v90"/>
-    <path d="M1145 615 v92"/>
-    <path d="M1200 615 v92"/>
-    <path d="M1250 590 v90"/>
-  </g>
-  <g transform="translate(1210 510)" fill="#101d16" stroke="#101d16" stroke-width="14" stroke-linecap="round">
-    <circle cx="0" cy="-55" r="22"/>
-    <path d="M0 -30 L-25 45 L15 95"/>
-    <path d="M-15 5 L-70 35"/>
-    <path d="M-12 5 L35 -35"/>
-    <path d="M-25 45 L-70 110"/>
-    <path d="M-25 45 L35 115"/>
-  </g>
-  <g opacity=".55" fill="#5f8a66">
-    <circle cx="135" cy="650" r="160"/>
-    <circle cx="310" cy="715" r="130"/>
-    <circle cx="1480" cy="700" r="190"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850" role="img" aria-labelledby="title desc">
+<title id="title">Survivalbaan in een groene omgeving</title>
+<desc id="desc">Sfeervolle illustratie van een buitensportlocatie met houten hindernissen.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8d7e5"/><stop offset="1" stop-color="#f6efe0"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#678d42"/><stop offset="1" stop-color="#274525"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1600" height="850" fill="url(#sky)"/>
+<circle cx="1280" cy="155" r="85" fill="#fff3c7" opacity=".85"/>
+<g opacity=".55" filter="url(#soft)"><ellipse cx="1160" cy="170" rx="220" ry="60" fill="#fff"/><ellipse cx="380" cy="130" rx="260" ry="65" fill="#fff"/></g>
+<path d="M0 450 C260 370 480 435 720 385 C980 330 1240 380 1600 300 L1600 850 L0 850Z" fill="#4e7138"/>
+<path d="M0 545 C270 455 555 535 790 470 C1050 400 1300 455 1600 380 L1600 850 L0 850Z" fill="url(#ground)"/>
+<g fill="#1f3c23" opacity=".95">
+  <path d="M90 560l55-220 50 220z"/><path d="M180 570l68-290 68 290z"/><path d="M1340 520l60-250 60 250z"/><path d="M1440 545l72-315 72 315z"/><path d="M1190 540l48-205 48 205z"/>
+</g>
+<g stroke="#5a3d25" stroke-width="30" stroke-linecap="round">
+  <line x1="330" y1="650" x2="330" y2="300"/><line x1="820" y1="650" x2="820" y2="300"/><line x1="330" y1="315" x2="820" y2="315"/>
+  <line x1="980" y1="640" x2="980" y2="365"/><line x1="1305" y1="640" x2="1305" y2="365"/><line x1="980" y1="380" x2="1305" y2="380"/>
+</g>
+<g stroke="#d9cfb8" stroke-width="10">
+  <line x1="400" y1="330" x2="400" y2="610"/><line x1="480" y1="330" x2="480" y2="610"/><line x1="560" y1="330" x2="560" y2="610"/><line x1="640" y1="330" x2="640" y2="610"/><line x1="720" y1="330" x2="720" y2="610"/>
+  <line x1="390" y1="380" x2="735" y2="380"/><line x1="390" y1="455" x2="735" y2="455"/><line x1="390" y1="530" x2="735" y2="530"/>
+</g>
+<g stroke="#d9cfb8" stroke-width="12" fill="none">
+  <path d="M1020 400 Q1140 520 1260 400"/><path d="M1020 450 Q1140 570 1260 450"/>
+</g>
+<path d="M700 315c50-60 102-70 150-26-17 12-36 31-46 55-41-13-72-11-104-29z" fill="#18241b"/>
+<circle cx="836" cy="265" r="25" fill="#18241b"/>
+<path d="M792 318l-65 70m76-63 77 53m-92-30 18 112m-13-5-70 58m83-60 65 75" stroke="#18241b" stroke-width="25" stroke-linecap="round"/>
+<path d="M0 760 C300 705 610 790 920 730 C1200 680 1420 730 1600 700 L1600 850 L0 850Z" fill="#183421" opacity=".85"/>
 </svg>

@@ -1,16 +1,19 @@
-# Survival Ommen – Sprint 1
+# Survivalvereniging Ommen website
 
-Deze map bevat de eerste werkende versie van de website.
+Volledige statische website voor GitHub Pages / Cloudflare Pages.
 
-## Publiceren via GitHub en Cloudflare Pages
+## Bestanden uploaden
+Upload de volledige inhoud van deze map naar de hoofdmap van de GitHub-repository. Behoud de mappenstructuur van `assets`.
 
-1. Pak het zipbestand uit.
-2. Upload alle bestanden en mappen naar de hoofdmap van de GitHub-repository `survivalommen.nl`.
-3. Commit de wijzigingen.
-4. Cloudflare Pages publiceert de nieuwe versie automatisch.
+## Formulieren
+Het contact- en interesseformulier gebruiken hetzelfde Formspree-formulier:
+`https://formspree.io/f/mwvggwoa`
 
-## Contactformulier
+Verstuur na publicatie een testinzending. Formspree kan vragen om het ontvangende e-mailadres eenmalig te bevestigen.
 
-Het formulier opent op dit moment het standaard e-mailprogramma van de bezoeker en maakt een bericht aan voor `info@survivalommen.nl`.
-
-Voor een volledig zelfstandig formulier zonder e-mailprogramma kan later Formspree of een Cloudflare Pages Function worden gekoppeld.
+## Pagina's
+- `index.html`
+- `over-survival-ommen.html`
+- `interesse.html`
+- `contact.html`
+- `privacy.html`
