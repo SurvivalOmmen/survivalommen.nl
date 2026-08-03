@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850" role="img" aria-labelledby="title desc">
+<title id="title">Survivalbaan in een groene omgeving</title>
+<desc id="desc">Sfeervolle illustratie van een buitensportlocatie met houten hindernissen.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8d7e5"/><stop offset="1" stop-color="#f6efe0"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#678d42"/><stop offset="1" stop-color="#274525"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1600" height="850" fill="url(#sky)"/>
+<circle cx="1280" cy="155" r="85" fill="#fff3c7" opacity=".85"/>
+<g opacity=".55" filter="url(#soft)"><ellipse cx="1160" cy="170" rx="220" ry="60" fill="#fff"/><ellipse cx="380" cy="130" rx="260" ry="65" fill="#fff"/></g>
+<path d="M0 450 C260 370 480 435 720 385 C980 330 1240 380 1600 300 L1600 850 L0 850Z" fill="#4e7138"/>
+<path d="M0 545 C270 455 555 535 790 470 C1050 400 1300 455 1600 380 L1600 850 L0 850Z" fill="url(#ground)"/>
+<g fill="#1f3c23" opacity=".95">
+  <path d="M90 560l55-220 50 220z"/><path d="M180 570l68-290 68 290z"/><path d="M1340 520l60-250 60 250z"/><path d="M1440 545l72-315 72 315z"/><path d="M1190 540l48-205 48 205z"/>
+</g>
+<g stroke="#5a3d25" stroke-width="30" stroke-linecap="round">
+  <line x1="330" y1="650" x2="330" y2="300"/><line x1="820" y1="650" x2="820" y2="300"/><line x1="330" y1="315" x2="820" y2="315"/>
+  <line x1="980" y1="640" x2="980" y2="365"/><line x1="1305" y1="640" x2="1305" y2="365"/><line x1="980" y1="380" x2="1305" y2="380"/>
+</g>
+<g stroke="#d9cfb8" stroke-width="10">
+  <line x1="400" y1="330" x2="400" y2="610"/><line x1="480" y1="330" x2="480" y2="610"/><line x1="560" y1="330" x2="560" y2="610"/><line x1="640" y1="330" x2="640" y2="610"/><line x1="720" y1="330" x2="720" y2="610"/>
+  <line x1="390" y1="380" x2="735" y2="380"/><line x1="390" y1="455" x2="735" y2="455"/><line x1="390" y1="530" x2="735" y2="530"/>
+</g>
+<g stroke="#d9cfb8" stroke-width="12" fill="none">
+  <path d="M1020 400 Q1140 520 1260 400"/><path d="M1020 450 Q1140 570 1260 450"/>
+</g>
+<path d="M700 315c50-60 102-70 150-26-17 12-36 31-46 55-41-13-72-11-104-29z" fill="#18241b"/>
+<circle cx="836" cy="265" r="25" fill="#18241b"/>
+<path d="M792 318l-65 70m76-63 77 53m-92-30 18 112m-13-5-70 58m83-60 65 75" stroke="#18241b" stroke-width="25" stroke-linecap="round"/>
+<path d="M0 760 C300 705 610 790 920 730 C1200 680 1420 730 1600 700 L1600 850 L0 850Z" fill="#183421" opacity=".85"/>
+</svg>
